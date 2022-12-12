@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="logo">
+            <div id="mo1" class="mo"></div>
+            <div id="mo2" class="mo"></div>
+            <div id="sar"></div>
+            <div id="cheshm1" class="cheshm"></div>
+            <div id="cheshm2" class="cheshm"></div>
+            <div id="badan"></div>
+            <div id="dast1" class="dast"></div>
+            <div id="dast2" class="dast"></div>
+            <div id="pa1" class="pa"></div>
+            <div id="pa2" class="pa"></div>
+            <p id="android-text">ANDROID</p>
+        </div>
+
+    </body>
+    <script>
+        var badan = document.getElementById("badan");
+        var cheshm1 = document.getElementById("cheshm1");
+        var cheshm2 = document.getElementById("cheshm2");
+        badan.onclick = function () {
+            cheshm1.style.backgroundColor = "lawngreen";
+            cheshm2.style.backgroundColor = "lawngreen";
+        }
+        var sar = document.getElementById("sar");
+        sar.onclick = function () {
+            cheshm1.style.backgroundColor = "white";
+            cheshm2.style.backgroundColor = "white";
+        }
+        var dastrast = document.getElementById("dast1");
+        var dastshap = document.getElementById("dast2");
+        dastrast.onclick = function () {
+            dastrast.style.animationIterationCount ="infinite";
+            dastrast.style.transform = "rotate(-45deg)";
+            dastrast.style.transition = "transform 5s ,animation 5s";
+
+        }
+        dastshap.onclick =function () {
+
+            dastrast.style.animationIterationCount ="infinite";
+            dastshap.style.transform = "rotate(45deg)";
+            dastshap.style.transition = "transform 5s , animation 5s";
+        }
+        dastrast.onmouseout = function () {
+            dastrast.style.animationIterationCount ="infinite";
+            dastrast.style.transform = "none";
+            dastrast.style.transition = "transform 5s ,animation 5s";
+
+        }
+        dastshap.onmouseout =function () {
+
+            dastrast.style.animationIterationCount ="infinite";
+            dastshap.style.transform = "none";
+            dastshap.style.transition = "transform 5s , animation 5s";
+        }
+
+
+    </script>
+</html>

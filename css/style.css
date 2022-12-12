@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Android";
+    src: url("../foonts/Android.ttf");
+}
+button{
+    border: none;
+}
+#sar{
+    margin: 80px;
+    width: 100px;
+    height: 40px;
+    background-color: lawngreen;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.mo{
+    position: absolute;
+    width: 5px;
+    height: 25px;
+    background-color: lawngreen;
+}
+#mo1{
+
+    top: 61px;
+    left: 106px;
+    transform: rotate(-45deg);
+}
+#mo2{
+    transform: rotate(45deg);
+    top: 61px;
+    left: 161px;
+}
+.cheshm{
+    position: absolute;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#cheshm1{
+    top: 97px;
+    left: 115px;
+}
+#cheshm2{
+    top: 97px;
+    left: 149px;
+}
+#badan{
+    border: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: lawngreen;
+    top: 124px;
+    left: 88px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.dast{
+    width: 20px;
+    height: 60px;
+    background-color: lawngreen;
+    position: absolute;
+    border-radius: 20px;
+}
+#dast1{
+    top: 120px;
+    left: 63px;
+}
+#dast2{
+    top: 120px;
+    left: 193px;
+}
+.pa{
+    width: 20px;
+    height: 60px;
+    background-color: lawngreen;
+    position: absolute;
+    border-radius: 20px;
+}
+#pa1{
+    top: 197px;
+    left: 114px;
+}
+#pa2{
+    top: 197px;
+    left: 144px;
+}
+#android-text{
+    position: relative;
+    top: 74px;
+    margin-left: 85px;
+    font-family: Android;
+    font-size: 20px;
+}
